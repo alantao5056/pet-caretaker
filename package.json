@@ -1,0 +1,13 @@
+{
+  "name": "pet-caretaker",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w apps/web",
+    "dev:device": "npm run dev -w apps/device",
+    "dev:api": "npm run dev -w apps/api"
+  }
+}
