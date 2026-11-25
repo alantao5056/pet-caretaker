@@ -1,10 +1,7 @@
 import './App.css'
 
 function App() {
-
-  function feed() {
-    
-  }
+  function feed() {}
 
   return (
     <>
